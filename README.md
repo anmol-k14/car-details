@@ -51,7 +51,7 @@ car-details/
 
 1. Clone the repository:
    ```
-  git clone https://github.com/yourusername/car-details.git 
+   git clone https://github.com/yourusername/car-details.git
    cd car-details
    ```
 
@@ -88,4 +88,3 @@ The application uses mock data for car information, stored in `mockData.js`. You
 ## Styling
 
 The project uses Tailwind CSS for styling. Custom styles can be added to `index.css`.
-
