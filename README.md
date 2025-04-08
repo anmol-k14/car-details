@@ -51,7 +51,7 @@ car-details/
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/car-details.git
+   git clone https://github.com/anmol-k14/car-details.git
    cd car-details
    ```
 
