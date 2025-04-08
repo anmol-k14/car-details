@@ -54,7 +54,7 @@ const CarList = ({
           >
             <div className="relative">
               <img 
-                src={car.image || "/api/placeholder/400/250"} 
+                src={car.image} 
                 alt={car.name} 
                 className="w-full h-48 object-cover"
               />

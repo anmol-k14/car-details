@@ -7,7 +7,7 @@ const CarDetails = ({ car, onClose, isInWishlist, toggleWishlist }) => {
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl max-w-3xl w-full max-h-[90vh] overflow-y-auto animate-fadeIn ">
         <div className="relative">
           <img 
-            src={car.image || "/api/placeholder/800/400"} 
+            src={car.image} 
             alt={car.name} 
             className="w-full h-64 object-cover rounded-t-lg"
           />

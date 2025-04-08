@@ -31,7 +31,7 @@ const WishlistPanel = ({ wishlist, removeFromWishlist }) => {
           >
             <div className="w-1/3 relative">
               <img 
-                src={car.image || "/api/placeholder/150/150"} 
+                src={car.image} 
                 alt={car.name} 
                 className="w-full h-full object-cover"
               />
