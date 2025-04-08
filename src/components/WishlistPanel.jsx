@@ -1,4 +1,3 @@
-// components/WishlistPanel.jsx
 import React from 'react';
 import { Heart, Trash2 } from 'lucide-react';
 
@@ -72,5 +71,3 @@ const WishlistPanel = ({ wishlist, removeFromWishlist }) => {
 };
 
 export default WishlistPanel;
-
-// contexts/ThemeContext.js

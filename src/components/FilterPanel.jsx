@@ -5,13 +5,11 @@ const FilterPanel = ({ filters, onFilterChange, onSortChange, sortType }) => {
   const [localFilters, setLocalFilters] = useState(filters);
   const [mobileFiltersVisible, setMobileFiltersVisible] = useState(false);
   
-  // Brands for the filter dropdown (in a real app, this might come from an API)
   const brands = ['Toyota', 'Honda', 'Ford', 'BMW', 'Mercedes', 'Audi', 'Tesla', 'Hyundai', 'Kia'];
   const fuelTypes = ['Petrol', 'Diesel', 'Hybrid', 'Electric'];
   const seatingOptions = [2, 4, 5, 6, 7, 8];
   console.log(filters)
   
-  // Update local filters when props change
   useEffect(() => {
     setLocalFilters(filters);
   }, [filters]);

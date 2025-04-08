@@ -1,4 +1,3 @@
-// components/Navbar.jsx
 import React, { useState, useContext } from 'react';
 import { Moon, Sun, Heart } from 'lucide-react';
 import { ThemeContext } from '../contexts/ThemeContext';
@@ -76,10 +75,3 @@ const Navbar = ({ onSearch, wishlistCount, toggleWishlist, showingWishlist }) =>
 };
 
 export default Navbar;
-
-
-
-// components/CarDetails.jsx
-
-
-// components/FilterPanel.jsx
